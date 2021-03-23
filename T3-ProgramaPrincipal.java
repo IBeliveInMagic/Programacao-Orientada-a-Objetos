@@ -11,10 +11,10 @@ public class ProgramaPrincipal {
 		
 		int opcao = 1;
 		while(opcao > 0) {
-			System.out.println("Digite qual operaÁ„o deseja realizar:");
+			System.out.println("Digite qual opera√ß√£o deseja realizar:");
 			System.out.println("1.Vender");
-			System.out.println("2.Comprar com alteraÁ„o no valor do produto");
-			System.out.println("3.Comprar sem alteraÁ„o no valor do produto");
+			System.out.println("2.Comprar com altera√ß√£o no valor do produto");
+			System.out.println("3.Comprar sem altera√ß√£o no valor do produto");
 			System.out.println("4.Inserir produto");
 			System.out.println("5.Consultar produtos");
 			System.out.println("6.Comparar produtos");
@@ -60,17 +60,17 @@ public class ProgramaPrincipal {
 					break;
 				case 4:
 					
-					System.out.println("Insira o nome do produto que ser· inserido:");
+					System.out.println("Insira o nome do produto que ser√° inserido:");
 					nome_produto = sc.nextLine();
 					
-					System.out.println("Insira a quantidade do produto que ser· inserido:");
+					System.out.println("Insira a quantidade do produto que ser√° inserido:");
 					qtd = sc.nextInt();
 					sc.nextLine();
 					
-					System.out.println("Insira no tipo do produto que ser· inserido:");
+					System.out.println("Insira no tipo do produto que ser√° inserido:");
 					tipo = sc.nextLine();
 					
-					System.out.println("Insira o valor do produto que ser· inserido:");
+					System.out.println("Insira o valor do produto que ser√° inserido:");
 					valor_produto = sc.nextDouble();
 					
 					sc.nextLine();
