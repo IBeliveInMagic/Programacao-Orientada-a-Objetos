@@ -29,7 +29,7 @@ public class ExercLab1_2 {
 			String tipo = sc.nextLine();
 			cursos[i].Tipo = tipo;
 			
-			System.out.printf("Insira a quantidade de períodos do curso:");		
+			System.out.printf("Insira a quantidade de perÃ­odos do curso:");		
 			
 			int periodo = sc.nextInt();
 			cursos[i].Qtd_periodos = periodo;
