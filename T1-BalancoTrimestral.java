@@ -12,7 +12,7 @@ public class BalancoTrimestral {
 		
 		float mediaMensal = gastosTrimestre/3F;
 		
-		System.out.println("Valor da média mensal = " + mediaMensal);
+		System.out.println("Valor da mÃ©dia mensal = " + mediaMensal);
 	}
 
 }
