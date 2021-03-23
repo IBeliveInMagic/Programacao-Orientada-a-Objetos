@@ -14,7 +14,7 @@ class Produto {
 		
 		if( this.qtd < qtdvendida ) {
 			
-			System.out.println("Não possui essa quantidade no estoque.");
+			System.out.println("NÃ£o possui essa quantidade no estoque.");
 			return 0;
 			
 		}else {
