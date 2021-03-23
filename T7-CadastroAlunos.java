@@ -45,7 +45,7 @@ public class CadastroAlunos {
 		al2.ano = 2019;
 		al2.adicionaCurso(cu4);
 		
-		Alunos al3 = new Alunos("Jo„o Paulo");
+		Alunos al3 = new Alunos("Jo√£o Paulo");
 		al3.matricula = "202036487";
 		al3.ano = 2020;
 		al3.adicionaCurso(cu4);
