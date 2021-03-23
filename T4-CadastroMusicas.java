@@ -31,7 +31,7 @@ public class CadastroMusicas {
 		mu3.adicionaCompositor(comp3);
 		
 		
-		String mensagem = "Música " + "\n" + mu1 + "\n" + mu2 + "\n" + mu3;
+		String mensagem = "MÃºsica " + "\n" + mu1 + "\n" + mu2 + "\n" + mu3;
 		JOptionPane.showMessageDialog(null, mensagem);
 	}
 }
